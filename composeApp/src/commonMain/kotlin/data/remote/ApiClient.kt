@@ -1,6 +1,7 @@
 package data.remote
 
 import io.ktor.client.*
+import io.ktor.client.engine.ProxyBuilder
 import io.ktor.client.plugins.*
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.plugins.logging.DEFAULT
@@ -39,5 +40,8 @@ val client = HttpClient {
         json(Json {
             ignoreUnknownKeys = true
         })
+    }
+    engine {
+        proxy = ProxyBuilder.socks("127.0.0.1", 20170)
     }
 }

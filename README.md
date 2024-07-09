@@ -1,3 +1,19 @@
+# linux运行桌面版本
+
+```shell
+desktopRun -DmainClass=MainKt --quiet
+```
+
+![img_1.png](img_1.png)
+
+加上代理
+
+themoviedb.org
+
+![img_2.png](img_2.png)
+
+![img.png](img.png)
+
 # KMP Movie (Compose Multiplatform)  
 [![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.6.11-green)](https://developer.android.com/jetpack/compose)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
