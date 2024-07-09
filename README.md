@@ -1,3 +1,6 @@
+
+经过实际测试，这个App仅仅是一个movie的列表和介绍。没有视频的播放。
+
 # linux运行桌面版本
 
 ```shell
@@ -13,6 +16,7 @@ themoviedb.org
 ![img_2.png](img_2.png)
 
 ![img.png](img.png)
+
 
 # KMP Movie (Compose Multiplatform)  
 [![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.6.11-green)](https://developer.android.com/jetpack/compose)
